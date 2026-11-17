@@ -1,0 +1,54 @@
+{
+  "timezone": "Europe/Sarajevo",
+  "sliders": [
+    {
+      "id": "glavni",
+      "name": "Glavni",
+      "is_active": true,
+      "priority": 10,
+      "schedule": [],
+      "default_slide_duration_sec": 6,
+      "loop_pause_sec": 30,
+      "slides": [
+        {
+          "image_url": "slike/reklama1.png",
+          "order": 1
+        },
+        {
+          "image_url": "slike/reklama2.jpg",
+          "order": 2
+        }
+      ],
+      "ticker": {
+        "enabled": true,
+        "height_pct": 6,
+        "bg_color": "#000000",
+        "bg_alpha": 60,
+        "text_color": "#ffffff",
+        "text_alpha": 100,
+        "font_size_pct": 60,
+        "speed_px_per_sec": 120,
+        "show_sec": 0,
+        "hide_sec": 0,
+        "items": [
+          {
+            "type": "text",
+            "value": "FAME CAFFE"
+          },
+          {
+            "type": "text",
+            "value": "LATE CHILL"
+          },
+          {
+            "type": "text",
+            "value": "−20% SVAKI DAN OD 20:00"
+          },
+          {
+            "type": "text",
+            "value": "Uživaj više, plati manje."
+          }
+        ]
+      }
+    }
+  ]
+}
